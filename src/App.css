@@ -1,0 +1,44 @@
+/* app.css */
+
+/* body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh; Ekran yüksekliği boyutunda sayfa yüksekliği ayarlamak için 
+  margin: 0;  Sayfa kenar boşluklarını kaldırmak için 
+  padding: 0;  Sayfa içerik boşluklarını kaldırmak için 
+} */
+
+/* App.css */
+
+body {
+  background-size: cover; /* Resmin ekranı kaplamasını sağlar */
+  background-repeat: no-repeat; /* Resmin tekrar etmemesini sağlar */
+  justify-content: center;
+  height: 100vh; 
+  margin: 0;  
+  padding: 0; 
+  transition: background-image 0.3s ease; /* Yavaşça geçiş yapması için geçiş efekti ekle */
+  background-image: url('images/image2.jpg'); /* Arka plan resmi */
+
+}
+
+.light-theme {
+
+background-image: url('images/image.jpg'); /* Arka plan resmi */
+
+}
+
+.dark-theme {
+  background-image: url('images/image2.jpg'); /* Arka plan resmi */
+}
+
+
+
+
+
+
+
+
+
